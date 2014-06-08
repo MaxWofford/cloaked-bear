@@ -16,7 +16,7 @@ var pageNumber = parseInt(urlArray[0]);
 function customization(name, description) {
 		document.getElementById('title').innerHTML = "ShibeSales | " + name;
 		document.getElementById('game-name').innerHTML = name;
-		document.getElementById('description').innerHTML = description;
+		document.getElementById('game-description').innerHTML = description;
 }
 
 
