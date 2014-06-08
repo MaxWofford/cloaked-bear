@@ -34,32 +34,32 @@ var objectData = JSON.parse(myJson);
 		case 1:
 			var name = objectData.games.id.one.title;
 			var description = objectData.games.id.one.description;
-			var img = objectData.games.id.one.title = ".jpg"
+			var img = objectData.games.id.one.title = ".jpg";
 			break;
 		case 2:
 			var name = objectData.games.id.two.title;
 			var description = objectData.games.id.two.description;
-			var img = objectData.games.id.two.title = ".jpg"
+			var img = objectData.games.id.two.title = ".jpg";
 			break;
 		case 3:
 			var name = objectData.games.id.three.title;
 			var description = objectData.games.id.three.description;
-			var img = objectData.games.id.three.title = ".jpg"
+			var img = objectData.games.id.three.title = ".jpg";
 			break;
 		case 4:
 			var name = objectData.games.id.four.title;
 			var description = objectData.games.id.four.description;
-			var img = objectData.games.id.four.title = ".jpg"
+			var img = objectData.games.id.four.title = ".jpg";
 			break;
 		case 5:
 			var name = objectData.games.id.five.title;
 			var description = objectData.games.id.five.description;
-			var img = objectData.games.id.five.title = ".jpg"
+			var img = objectData.games.id.five.title = ".jpg";
 			break;
 		case 6:
 			var name = objectData.games.id.six.title;
 			var description = objectData.games.id.six.description;
-			var img = objectData.games.id.six.title = ".jpg"
+			var img = objectData.games.id.six.title = ".jpg";
 			break;
 		default:
 			console.log("default");
