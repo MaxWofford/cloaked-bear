@@ -19,6 +19,8 @@ var pageNumber = parseInt(urlArray[0]);
 
 function setup(objectData) {
 
+console.log("1 worked");
+
 switch (pageNumber) {
 	case 1:
 	var name = objectData.games.id.one.title;
@@ -39,15 +41,11 @@ switch (pageNumber) {
 	var name = objectData.games.id.six.title;
 	break;
 }
-
-
-
-
-
-
+console.log("2 worked");
 
 	/*Retitle page based on data from JSON*/
 	document.getElementById('title').innerHTML = "ShibeSales | " + name;
+	console.log("3 worked");
 }
 
 window.onload = setup();
