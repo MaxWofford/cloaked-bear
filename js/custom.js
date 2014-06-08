@@ -8,18 +8,46 @@ var objectData = JSON.parse(myJson);
 /*-----------------------------------
 Customizing page
 -----------------------------------*/
+
+/*All these variables help get to pageNumber. This will need to be optimized later*/
 var pathArray = window.location.pathname.split( '/' );
 var urlArray = pathArray[2].split( '.' );
 var pageNumber = urlArray[0];
 
 
 
-var title = objectData.games.id.one.title;
-
-
 
 function setup(objectData) {
-	document.getElementById('title').innerHTML = "ShibeSales | " + title;
+
+switch (pageNumber) {
+	case 1:
+	var name = objectData.games.id.one.title;
+	break;
+	case 2:
+	var name = objectData.games.id.two.title;
+	break;
+	case 3:
+	var name = objectData.games.id.three.title;
+	break;
+	case 4:
+	var name = objectData.games.id.four.title;
+	break;
+	case 5:
+	var name = objectData.games.id.five.title;
+	break;
+	case 6:
+	var name = objectData.games.id.six.title;
+	break;
+}
+
+
+
+
+
+
+
+	/*Retitle page based on data from JSON*/
+	document.getElementById('title').innerHTML = "ShibeSales | " + name;
 }
 
 window.onload = setup();
