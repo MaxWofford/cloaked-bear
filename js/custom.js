@@ -12,7 +12,7 @@ Customizing page
 /*All these variables help get to pageNumber. This will need to be optimized later*/
 var pathArray = window.location.pathname.split( '/' );
 var urlArray = pathArray[2].split( '.' );
-var pageNumber = urlArray[0];
+var pageNumber = parseInt(urlArray[0]);
 
 
 
