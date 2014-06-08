@@ -3,6 +3,7 @@
 ------------------------------------------------*/
 body {
   background-color: #1D1C1A;
+  color: rgb(176, 174, 172); 
 }
 .panel {
   background-color: #3C3D3E;
@@ -14,8 +15,17 @@ body {
   border-image: url(../img/rightcol_bg_block.png) 1 0 fill stretch repeat;
 }
 .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li {
-  color: rgb(176, 174, 172);  
+  color: inherit;
 }
 .row {
   max-width: 80rem;
+}
+.horizontal-line {
+  background-image: url(../img/rightcol_bg_block.png);
+  height: 1px;
+  width: auto;
+  background-size: 100%;
+}
+a {
+  color: white;
 }
