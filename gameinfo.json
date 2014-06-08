@@ -1,0 +1,41 @@
+{
+	"games" : {
+		"Lead and Gold: Gangs of the Wild West" : {
+			"description" : "Lead and Gold: Gangs of the Wild West is a third-person shooter that delivers an intense team-based multiplayer experience. Relive the violent era of the Wild West with adrenaline-fueled action and fast-paced gunfights. Engage in gritty battles in beautifully rendered classic Western settings.",
+			"link" : "http://store.steampowered.com/app/42120/",
+			"price" : "",
+			"sale" : "",
+		},
+		"E.Y.E: Divine Cybermancy" : {
+			"description" : "In a dark Cyberpunk world, you (and up to 3 friends) wage war against the all-powerful Federation in this Source-powered FPS/RPG."
+			"link" : "http://store.steampowered.com/app/91700/",
+			"price" : "",
+			"sale" : "",
+		},
+		"Nuclear Dawn" : {
+			"description" : "Explore war-torn post-apocalyptic landscapes and take fight against enemies using various weapons in this FPS/RTS hybrid."
+			"link" : "http://store.steampowered.com/app/17710/",
+			"price" : "",
+			"sale" : "",
+		},
+		"Beatbuddy: Tale of the Guardians" : {
+			"description" : "Awakened from his slumber, Beatbuddy journeys through lush hand-painted environments on a quest to save his companions and his own immortality. Beatbuddy interacts with the living breathing environment that pulses to the beat of an original soundtrack, aiding him as he unlocks new paths and solves puzzles. "
+			"link" : "http://store.steampowered.com/app/231040/",
+			"price" : "",
+			"sale" : "",
+		},
+		"Stellar Impact" : {
+			"description" : "In Stellar Impact you command a space battleship in intense tactical combat with teammates!"
+			"link" : "http://store.steampowered.com/app/207150/",
+			"price" : "",
+			"sale" : "",
+		},
+		"Cortex Command" : {
+			"description" : "Choose between different factions, with their own set of expendable soldiers, mechas, and weapons. Protect your brain, mine gold, and destroy the enemy cortex in his bunker complex!"
+			"link" : "http://store.steampowered.com/app/209670/",
+			"price" : "",
+			"sale" : "",
+		},
+
+	}
+}
