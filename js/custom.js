@@ -15,40 +15,44 @@ var urlArray = pathArray[2].split( '.' );
 var pageNumber = parseInt(urlArray[0]);
 
 
+function customization(name) {
+		document.getElementById('title').innerHTML = "ShibeSales | " + name;
+		document.getElementById('game-name').innerHTML = name;
+}
 
 
 function setup(objectData) {
 
-console.log("1 worked");
-
-switch (pageNumber) {
-	case 1:
-		var name = objectData.games.id.one.title;
-		break;
-	case 2:
-		var name = objectData.games.id.two.title;
-		break;
-	case 3:
-		var name = objectData.games.id.three.title;
-		break;
-	case 4:
-		var name = objectData.games.id.four.title;
-		break;
-	case 5:
-		var name = objectData.games.id.five.title;
-		break;
-	case 6:
-		var name = objectData.games.id.six.title;
-		break;
-	default:
-		console.log("default");
-
-}
-console.log("2 worked");
-
-	/*Retitle page based on data from JSON*/
-	document.getElementById('title').innerHTML = "ShibeSales | " + name;
-	console.log("3 worked");
+	console.log("1 worked");
+	
+	switch (pageNumber) {
+		case 1:
+			var name = objectData.games.id.one.title;
+			break;
+		case 2:
+			var name = objectData.games.id.two.title;
+			break;
+		case 3:
+			var name = objectData.games.id.three.title;
+			break;
+		case 4:
+			var name = objectData.games.id.four.title;
+			break;
+		case 5:
+			var name = objectData.games.id.five.title;
+			break;
+		case 6:
+			var name = objectData.games.id.six.title;
+			break;
+		default:
+			console.log("default");
+	
+	}
+	console.log("2 worked");
+	
+		/*Retitle page based on data from JSON*/
+		customization(name);
+		console.log("3 worked");
 }
 
 window.onload = setup();
