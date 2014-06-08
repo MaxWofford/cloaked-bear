@@ -1,3 +1,21 @@
 /*------------------------------------------------
             Author's custom styles
 ------------------------------------------------*/
+body {
+  background-color: #1D1C1A;
+}
+.panel {
+  background-color: #3C3D3E;
+  border-style: solid;
+  border-width: 0px 0px 1px;
+  -moz-border-image: url(../img/rightcol_bg_block.png) 1 0 stretch repeat;
+  -webkit-border-image: url(../img/rightcol_bg_block.png) 1 0 stretch repeat;
+  -o-border-image: url(../img/rightcol_bg_block.png) 1 0 stretch repeat;
+  border-image: url(../img/rightcol_bg_block.png) 1 0 fill stretch repeat;
+}
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li {
+  color: rgb(176, 174, 172);  
+}
+.row {
+  max-width: 80rem;
+}
