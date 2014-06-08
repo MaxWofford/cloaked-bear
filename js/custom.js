@@ -68,7 +68,7 @@ var objectData = JSON.parse(myJson);
 	console.log("2 worked");
 	
 		/*Retitle page based on data from JSON*/
-		customization(name);
+		customization(name, description);
 		console.log("3 worked");
 }
 
