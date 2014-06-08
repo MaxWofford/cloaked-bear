@@ -29,3 +29,12 @@ body {
 a {
   color: white;
 }
+.sale {
+  background: #4C6B22;
+  margin: .5em;
+  padding: .25em;
+}
+.strikeout{
+  text-decoration: line-through;
+  opacity: .5;
+}
