@@ -17,6 +17,7 @@ function customization(name, description) {
 		document.getElementById('title').innerHTML = "ShibeSales | " + name;
 		document.getElementById('game-name').innerHTML = name;
 		document.getElementById('game-description').innerHTML = description;
+		document.getElementById('game-img').src = img;
 }
 
 
@@ -26,50 +27,46 @@ var myJson = '{"games":{"id":{"one":{"title":"Lead and Gold: Gangs of the Wild W
 var objectData = JSON.parse(myJson);
 
 
+/*----------------------
+Individual listing pages
+----------------------*/
 	console.log("1 worked");
 	
-/*Game info switch that inits all the variable we call in customization() */
 
-	switch (pageNumber) {
+	switch (pageNumber) { /*Game info switch that inits all the variable we call in customization() */
 		case 1:
 			var name = objectData.games.id.one.title;
 			var description = objectData.games.id.one.description;
-			var img = objectData.games.id.one.title = ".jpg";
 			break;
 		case 2:
 			var name = objectData.games.id.two.title;
 			var description = objectData.games.id.two.description;
-			var img = objectData.games.id.two.title = ".jpg";
 			break;
 		case 3:
 			var name = objectData.games.id.three.title;
 			var description = objectData.games.id.three.description;
-			var img = objectData.games.id.three.title = ".jpg";
 			break;
 		case 4:
 			var name = objectData.games.id.four.title;
 			var description = objectData.games.id.four.description;
-			var img = objectData.games.id.four.title = ".jpg";
 			break;
 		case 5:
 			var name = objectData.games.id.five.title;
 			var description = objectData.games.id.five.description;
-			var img = objectData.games.id.five.title = ".jpg";
 			break;
 		case 6:
 			var name = objectData.games.id.six.title;
 			var description = objectData.games.id.six.description;
-			var img = objectData.games.id.six.title = ".jpg";
+			
 			break;
 		default:
 			console.log("default");
 	}
+	var img = "img/game" + pageNumber + ".jpg";
 
 	console.log("2 worked");
-	
-		/*Retitle page based on data from JSON*/
-		customization(name, description);
-		console.log("3 worked");
+	customization(name, description); /*Customize page contents based on data from JSON*/
+	console.log("3 worked");
 }
 
 window.onload = setup();
