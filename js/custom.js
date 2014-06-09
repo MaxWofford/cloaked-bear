@@ -20,6 +20,7 @@ function customization(name, description) {
 	document.getElementById('game-name').innerHTML = name;
 	document.getElementById('game-description').innerHTML = description;
 	document.getElementById('game-img').src = img;
+	document.getElementById('buy-button').innerHTML = "Buy " + name.split( ':' )[0];
 }
 
 
