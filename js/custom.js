@@ -14,10 +14,12 @@ var pageNumber = parseInt(urlArray[0]);
 
 
 function customization(name, description) {
-		document.getElementById('title').innerHTML = "ShibeSales | " + name;
-		document.getElementById('game-name').innerHTML = name;
-		document.getElementById('game-description').innerHTML = description;
-		document.getElementById('game-img').src = img;
+	var img = "img/game" + pageNumber + ".jpg";
+	
+	document.getElementById('title').innerHTML = "ShibeSales | " + name;
+	document.getElementById('game-name').innerHTML = name;
+	document.getElementById('game-description').innerHTML = description;
+	document.getElementById('game-img').src = img;
 }
 
 
@@ -62,7 +64,6 @@ Individual listing pages
 		default:
 			console.log("default");
 	}
-	var img = "img/game" + pageNumber + ".jpg";
 
 	console.log("2 worked");
 	customization(name, description); /*Customize page contents based on data from JSON*/
