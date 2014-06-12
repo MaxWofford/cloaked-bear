@@ -13,7 +13,7 @@ function fillIn() {
 	};
 	
 	document.getElementById("listing").innerHTML = listing;
-	for (var i = carryOver; i < 13; i++) {
+	for (var i = carryOver + 1; i < 13; i++) {
 		console.log("generating listing" + i);
 			var listing = "<a href=\"" + i + ".html\"><div class=\"large-4 small-6 columns\"><img src=\"img/game" + i + ".jpg\"><div class=\"panel\"><h5><span id=\"item" + i + "\">Item Name </span><span class=\"sale\"><span id=\"percentage" + i + "\">25</span>%</span></h5><h6 class=\"subheader strikeout\">Ð<span id=\"previous-price" + i + "\">100</span></h6><h6 class=\"subheader\">Ð<span id=\"price" + i + "\">75</span></h6></div></div></a>";
 			document.getElementById("listing").innerHTML = document.getElementById("listing").innerHTML + listing;
